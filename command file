@@ -1,0 +1,28 @@
+git init
+git branch
+create a file hello_world.py
+git add .
+git commit -m "update"
+git status
+git log / git log --oneline
+git branch feature2 / git checkout -b feature2
+git swtich feature2 / git checkout feature2
+# in feature we are adding one file and commit this file
+touch test.txt
+git branch --merged
+git merge feature2
+git log --oneline --all --graph
+git branch --no-merged
+git remote --v
+git branch -M main
+git push
+git fetch
+git merge origin/main
+
+
+
+
+
+
+
+
