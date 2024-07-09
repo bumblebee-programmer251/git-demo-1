@@ -22,3 +22,8 @@ spec:
   resources:
     requests:
       storage: 1Gi
+---
+
+
+
+kubectl apply -f ov-pvc.yaml
