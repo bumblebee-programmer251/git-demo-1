@@ -39,3 +39,11 @@ spec:
             - name: mongo-data.
               persistentVolumeClaim:
                  claimName: mongo-pvc
+---
+apiVersion: v1
+kind : ConfigMap
+metadata:
+  name: mongodb-configmap
+data:
+  db_host: mongodb-service
+---
